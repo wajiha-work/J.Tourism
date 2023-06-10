@@ -1,0 +1,86 @@
+@media only screen and (max-width: 733px) {
+    .navbar {
+        height: 210px;
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .navbar ul li {
+        display: block;
+        padding: 2px 25px;
+    }
+
+    .logo-box {
+        justify-content: center;
+    }
+
+    .navbar ul {
+        margin-bottom: 25px;
+    }
+
+    /* banner */
+    .banner {
+        text-align: center;
+        height: 350px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .about {
+        display: block;
+        text-align: center;
+    }
+
+    .about-text {
+        width: 100%;
+        margin-right: auto;
+    }
+
+    .about img {
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .row1 {
+        display: block;
+        text-align: center;
+    }
+
+    .quick-links,
+    .map
+    {
+        margin-bottom: 20px;
+    }
+
+    .follow-us p
+    {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .row2 {
+        text-align: center;
+    }
+
+    .row2 .logo {
+        margin-left: 0;
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .map iframe
+    {
+        width: 250px;
+    }
+}
